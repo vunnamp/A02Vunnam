@@ -33,7 +33,7 @@ function order(){
 	document.shopForm.note.checked = false;
 	document.shopForm.pen.checked = false;
 	document.shopForm.pencil.checked = false;
-	document.shopForm.total.value ='';
-	document.shopForm.discTotal.value='';
+	$("#discTotal").val("");
+	$("#total").val("");
 	alert("Thank you for ordering");
 }
